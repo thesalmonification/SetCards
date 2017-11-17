@@ -10,7 +10,6 @@ for i = 1:3
         end
     end
 end
-size(Cards)
 Cards = [Cards,[1:81]'];
 
 end
