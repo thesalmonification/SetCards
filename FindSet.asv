@@ -8,7 +8,7 @@ for i = 1,size(combos,1)
         setcards = combos(i,:);
     else
         set = 0;
-        setcards = 0;
+        setcards 
     end
 end
 

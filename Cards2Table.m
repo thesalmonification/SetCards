@@ -1,4 +1,4 @@
-function spread = Cards2Table()
+function [spread,order] = Cards2Table()
 order = randperm(81);
-spread = order(:,[1:12]);
+spread = order(1:12);
 end
