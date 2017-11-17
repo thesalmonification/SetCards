@@ -10,6 +10,6 @@ for i = 1:3
         end
     end
 end
-Cards = [Cards,[1:81]'];
+%Cards = [Cards,[1:81]'];
 
 end
