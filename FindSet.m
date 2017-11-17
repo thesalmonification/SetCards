@@ -6,6 +6,6 @@ for i = 1,size(combos,2)
     if yesno == 1
         set = combos(i);
     end
-set = NaN;
+set = 0;
 
 end
