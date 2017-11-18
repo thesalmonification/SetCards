@@ -9,8 +9,13 @@ elseif size(unique(CardSumMatrix(2,:)),2) == 2
     val = 0;
 elseif size(unique(CardSumMatrix(3,:)),2) == 2
     val = 0;
+elseif size(unique(CardSumMatrix(3,:)),2) == 2
+    val = 0;
+elseif size(unique(CardSumMatrix(4,:)),2) == 2
+    val = 0;
 else
     val = 1;
+end
     
 
 end

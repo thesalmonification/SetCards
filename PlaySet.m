@@ -8,6 +8,7 @@ set = 0;
 while set == 0
     [set,setcards] = FindSet(spread,Cards);
     spread = [spread, order(cardtoadd)];
+    %display(spread)
     cardtoadd = cardtoadd+1;
     display(cardtoadd)
 end
