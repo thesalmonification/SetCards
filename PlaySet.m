@@ -1,4 +1,4 @@
-function PlaySet()
+cfunction PlaySet()
 Cards = LoadCards();
 [spread,order]= Cards2Table();
 cardtoadd = 13;
