@@ -2,6 +2,7 @@ function PlaySet()
 Cards = LoadCards();
 [spread,order]= Cards2Table();
 cardtoadd = 4;
+CardPics = GrabCardPics();
 %set = 0;
 %set = FindSet(spread,Cards)
 %set = 0;
@@ -17,4 +18,8 @@ while set == 0
 end
 display(set)
 display(setcards)
+PlotSpread(spread, CardPics)
+
+
+
 end
